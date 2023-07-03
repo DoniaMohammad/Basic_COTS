@@ -194,6 +194,13 @@ uint8 ADC_u8StartChainConversionAsynch (const ADC_Chain_t* copy_ChainData)
 	}
 }
 
+
+uint8 ADC_u8StartChainConversionSynch (const ADC_Chain_t* copy_ChainData)
+{
+
+}
+
+
 /*ADC conversion complete ISR*/
 void __vector_16(void)		__attribute__((signal));
 void __vector_16(void)
